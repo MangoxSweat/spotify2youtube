@@ -101,7 +101,7 @@ def search_youtube(song_name):
     return None
 
 # Load the Excel file with Spotify links
-file_path = 'spotify.xlsx'  # Replace with your actual file path
+file_path = input("Enter the path to your Excel file with Spotify links: ")
 df = pd.read_excel(file_path)
 
 # Add a new column for YouTube links
